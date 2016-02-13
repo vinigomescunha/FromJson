@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='description' content=''>
+    <meta name='author' content=''>
+    <link rel='shortcut icon' href='favicon.png'>
+    <title></title>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='css/main.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]>
+<script src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js'></script>
+<script src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js'></script>
+<![endif]-->
+</head>
+<body>
+    <div class='navbar navbar-default navbar-fixed-top'>
+        <div class='container'>
+            <div class='navbar-header' id='title'>
+                <a class='navbar-brand' href='#'><b></b></a>
+            </div>
+            <div class='pull-right'><a href='#' data-toggle='modal' data-target='#plus'>new</a></div>
+        </div>
+    </div>
+    <!--\hd-->
+    <div id='hd'>        
+        <div class='container cloned'>
+            <div class='row mt centered'>
+                <div class='col-lg-6 col-lg-offset-3'>
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </div>
+    <footer>
+        <div class='container'>
+            <p class='centered'>Copyright &copy;</p>
+        </div><!-- /container -->
+    </footer>
+    <!-- Modal -->
+    <div id='plus' class='modal fade' role='dialog'>
+      <div class='modal-dialog'>
+        <!-- Modal content-->
+        <div class='modal-content'>
+          <div class='modal-header'>
+            <button type='button' class='close' data-dismiss='modal'>&times;</button>
+            <h4 class='modal-title'>New</h4>
+        </div>
+        <div class='modal-body'>
+            <form class='form1'>
+                <p><input type='text' id='title-form' name='title' class='form-control fsave' /></p>
+                <p><textarea type='text' id='content-form' name='content' class='form-control fsave'></textarea></p>
+                <p><button class='fsave' id='save'>Save</button></p>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<script src='http://code.jquery.com/jquery-1.9.1.js'></script>
+<script src='js/bootstrap.min.js'></script>
+<script src='js/custom.js'></script>
+</body>
+</html>
